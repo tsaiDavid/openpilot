@@ -172,7 +172,7 @@ CAR_INFO: Dict[str, Optional[Union[HyundaiCarInfo, List[HyundaiCarInfo]]]] = {
   CAR.KIA_EV6: HyundaiCarInfo("Kia EV6 2022", "Highway Driving Assist II", harness=Harness.hyundai_p),
 
   # Genesis
-  CAR.GENESIS_GV60: HyundaiCarInfo("Genesis GV60 2023", "Highway Driving Assist", harness=Harness.hyundai_k),
+  CAR.GENESIS_GV60: HyundaiCarInfo("Genesis GV60 2023", "Highway Driving Assist (HDA)", harness=Harness.hyundai_k),
   CAR.GENESIS_G70: HyundaiCarInfo("Genesis G70 2018-19", "All", harness=Harness.hyundai_f),
   CAR.GENESIS_G70_2020: HyundaiCarInfo("Genesis G70 2020", "All", harness=Harness.hyundai_f),
   CAR.GENESIS_G80: HyundaiCarInfo("Genesis G80 2017-19", "All", harness=Harness.hyundai_h),
